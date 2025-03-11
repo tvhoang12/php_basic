@@ -1,28 +1,29 @@
 <?php
-// phép gán
-$a = 12;
-$b = 3;
+/*
+để khai báo 1 biến ta dùng từ khóa $ và sau đó là tên biến
+gán giá trị cho nó bằng dấu =
+*/
+$variable = 12;
 
-// phép toán số học
-echo("a + b = ". $a + $b . "\n"); // 15
-echo("a - b = " . $a - $b . "\n"); // 9
-echo("a * b = " . $a * $b. "\n"); // 36
-echo("a / b = " . $a / $b. "\n"); // 9
-echo("a % b = " . $a % $b. "\n"); // 0
+$_variable = 3.14;
 
+$Variable = "Hello";
 
-// Phép toán so sánh
-echo "a == b: " . (($a == $b) ? "true" : "false") . "\n";
-echo "a != b: " . (($a != $b) ? "true" : "false") . "\n";
-echo "a > b: " . (($a > $b) ? "true" : "false") . "\n";
-echo "a < b: " . (($a < $b) ? "true" : "false") . "\n";
-echo "a >= b: " . (($a >= $b) ? "true" : "false") . "\n";
-echo "a <= b: " . (($a <= $b) ? "true" : "false") . "\n";
+echo $Variable . "\n";
 
-// Phép toán logic
-echo "a && b: " . (($a && $b) ? "true" : "false") . "\n";
-echo "a || b: " . (($a || $b) ? "true" : "false") . "\n";
-echo "!a: " . ((!$a) ? "true" : "false") . "\n";
-echo "!b: " . ((!$b) ? "true" : "false") . "\n";
+echo $variable . "\n";
+
+echo $_variable . "\n";
+
+// khai báo hằng
+
+echo "-------------------\n";
+define("GREETING", "Hello everybody");
+
+const PI = 3.14;
+
+echo GREETING . "\n";
+
+echo PI . "\n";
 
 ?>
